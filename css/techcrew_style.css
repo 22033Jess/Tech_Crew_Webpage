@@ -1,3 +1,21 @@
-h1{
-    background-color: blueviolet;
+.hero-image{
+    background-image: url("../Images/placeholder.com-1280x720.webp");
+    height:352px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text{
+    color: whitesmoke;
+    position: absolute;
+    text-align: center;
+    margin-top: 220px;
+    width: 100%;
+    font-size: 4rem;
+}
+
+.intro{
+    display: grid;
+    text-align: center;
 }
